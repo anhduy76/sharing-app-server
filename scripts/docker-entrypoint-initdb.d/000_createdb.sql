@@ -1,0 +1,1 @@
+SELECT 'CREATE DATABASE geo;' WHERE NOT EXISTS (SELECT FROM pg_database WHERE datname = 'geo');
